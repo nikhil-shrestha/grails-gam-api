@@ -1,0 +1,7 @@
+import gam.api.Dashboard
+
+model {
+	Dashboard dashboard
+}
+
+json g.render(dashboard, [resolveTemplate: false])

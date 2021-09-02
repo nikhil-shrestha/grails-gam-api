@@ -1,0 +1,8 @@
+import gam.api.Dashboard
+
+model {
+	Iterable<Dashboard> dashboardList
+}
+
+json tmpl.dashboard(dashboardList ?: [])
+
